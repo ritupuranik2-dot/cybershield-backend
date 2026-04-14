@@ -13,7 +13,8 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["https://cybershield-frontend-jqz8vl3cp-ritupuranik2-dots-projects.vercel.app",
+                   "https://*.vercel.app"])
 
 DEVICE     = torch.device("cpu")
 MODEL_DIR  = Path("saved_model")
