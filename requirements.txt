@@ -1,0 +1,8 @@
+torch==2.2.2+cpu --extra-index-url https://download.pytorch.org/whl/cpu
+transformers==4.40.0
+flask==3.0.3
+flask-cors==4.0.1
+gunicorn==22.0.0
+huggingface-hub==0.23.0
+scikit-learn==1.4.2
+numpy==1.26.4
